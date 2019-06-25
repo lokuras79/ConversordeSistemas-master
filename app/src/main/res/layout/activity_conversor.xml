@@ -1,0 +1,100 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:background="#000000"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".Conversor">
+
+    <TextView
+        android:id="@+id/lbl_Base_Inicial"
+        android:layout_width="match_parent"
+        android:layout_height="37dp"
+        android:text="@string/txtBaseInicial"
+        android:textColor="#FFFFFF"
+        android:textSize="25dp" />
+
+    <EditText
+        android:id="@+id/txt_Numero"
+        android:layout_width="match_parent"
+        android:layout_height="58dp"
+        android:ems="10"
+        android:textColor="#FFFFFF"
+        android:textSize="20dp"
+        android:inputType="textPersonName"
+        android:hint="Ingrese un numero"/>
+
+    <Button
+        android:id="@+id/btn_Calcular"
+        android:layout_width="match_parent"
+        android:layout_height="60dp"
+        android:background="#FFDE4319"
+        android:onClick="Calcular"
+        android:text="@string/btnCalcular"
+        android:textColor="#000000"
+        android:textSize="20dp" />
+
+    <TextView
+        android:id="@+id/lbl_Base1"
+        android:layout_width="match_parent"
+        android:layout_height="46dp"
+        android:text="@string/txtBase1"
+        android:textColor="#FFFfbb33"
+        android:textSize="25dp" />
+
+    <TextView
+        android:id="@+id/lbl_Base1_Total"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/Numero1"
+        android:textAlignment="center"
+        android:textColor="#FFFFFF"
+        android:textSize="25dp" />
+
+    <TextView
+        android:id="@+id/lbl_Base2"
+        android:layout_width="match_parent"
+        android:layout_height="46dp"
+        android:text="@string/txtBase2"
+        android:textColor="#FFFF0762"
+        android:textSize="25dp" />
+
+    <TextView
+        android:id="@+id/lbl_Base2_Total"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/Numero2"
+        android:textAlignment="center"
+        android:textColor="#FFFFFF"
+        android:textSize="25dp" />
+
+    <TextView
+        android:id="@+id/lbl_Base3"
+        android:layout_width="match_parent"
+        android:layout_height="46dp"
+        android:text="@string/txtBase3"
+        android:textColor="#ff0099cc"
+        android:textSize="25dp" />
+
+    <TextView
+        android:id="@+id/lbl_Base3_Total"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/Numero3"
+        android:textAlignment="center"
+        android:textColor="#FFFFFF"
+        android:textSize="25dp" />
+
+    <Button
+        android:id="@+id/btn_Atras"
+        android:layout_width="60dp"
+        android:layout_height="23dp"
+        android:background="#FFFF011B"
+        android:onClick="Atras"
+        android:text="@string/btnAtras"
+        android:textColor="#ffff"
+        android:textSize="10dp" />
+
+</LinearLayout>

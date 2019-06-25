@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Converter of Bases</string>
+
+    <string name="SistemaBinario">Binary System </string>
+    <string name="SistemaDecimal">Decimal System </string>
+    <string name="SistemaOctal"> Octal System </string>
+    <string name="SistemaHexadecimal"> Hexadecimal System </string>
+
+    <string name="SistemaBinario_otros">Binary to the rest of the Systems </string>
+    <string name="SistemaDecimal_otros">Decimal to the rest of the Systems </string>
+    <string name="SistemaOctal_otros">Octal to the rest of the Systems </string>
+    <string name="SistemaHexadecimal_otros">Hexadecimal to the rest of the Systems </string>
+
+    <string name="txtBaseInicial"> Base_Inicial: </string>
+    <string name="btnCalcular"> CALCULATE </string>
+    <string name="txtBase1"> Base1:  </string>
+    <string name="txtBase2"> Base2:  </string>
+    <string name="txtBase3"> Base3:  </string>
+
+    <string name="Numero1">00</string>
+    <string name="Numero2">00</string>
+    <string name="Numero3">00</string>
+
+
+    <string name="btnAtras"> BACK </string>
+</resources>

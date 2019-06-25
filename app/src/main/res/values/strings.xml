@@ -1,0 +1,27 @@
+<resources>
+    <string name="app_name">Conversor de Bases</string>
+
+    <string name="SistemaBinario"> Sistemas Binario </string>
+    <string name="SistemaDecimal"> Sistema Decimal </string>
+    <string name="SistemaOctal"> Sistema Octal </string>
+    <string name="SistemaHexadecimal">  Sistema Hexadecimal </string>
+
+    <string name="SistemaBinario_otros">Binario al resto de los Sistemas </string>
+    <string name="SistemaDecimal_otros">Decimal al resto de los Sistemas </string>
+    <string name="SistemaOctal_otros">Octal al resto de los Sistemas </string>
+    <string name="SistemaHexadecimal_otros">Hexadecimal al resto de los Sistemas </string>
+
+    <string name="txtBaseInicial"> Base_Inicial: </string>
+    <string name="btnCalcular"> CALCULAR </string>
+    <string name="txtBase1"> Base1:  </string>
+    <string name="txtBase2"> Base2:  </string>
+    <string name="txtBase3"> Base3:  </string>
+
+    <string name="Numero1">00</string>
+    <string name="Numero2">00</string>
+    <string name="Numero3">00</string>
+
+    <string name="btnAtras"> ATRAS </string>
+
+
+</resources>
